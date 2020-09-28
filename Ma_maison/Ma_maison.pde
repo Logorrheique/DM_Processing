@@ -356,11 +356,9 @@ ellipseMode(CORNER);
 arc(657,466,4,4,0,360);
 
 
-
-
-
-
+save("G1DM1_COUTEAU_Arthur.png")
 }
+
 
 PrintWriter output;
 void mouseClicked(){
