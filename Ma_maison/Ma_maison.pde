@@ -7,7 +7,7 @@ PImage img;
 void setup(){
   img = loadImage("plan.png");
   output = createWriter("data.txt");
-  size(1100,714);
+  size(1000,714);
   output.println("beginShape();");
 }
 
@@ -26,7 +26,7 @@ color light_blue = color(184, 222, 245);
 
 void draw(){
 //image(img,0,0);
-//background(light_blue);
+background(light_blue);
 
 fill(255);
 
@@ -321,11 +321,11 @@ quad(392,417,419,417,419,480,391,482);
 quad(422,417,449,417,449,478,422,480);
 
 //right-top
-
 //border
 fill(gray);
 quad(378,334,378,339,446,342,446,337);
 quad(383,277,442,282,441,336,382,334);
+
 
 //glass 1-2
 fill(light_gray);
@@ -346,6 +346,7 @@ quad(654,406,685,406,685,512,655,515);
 quad(685,406,712,406,713,509,685,512);
 
 
+
 /*----WINDOWS----*/
 
 
@@ -353,6 +354,10 @@ quad(685,406,712,406,713,509,685,512);
 fill(black);
 ellipseMode(CORNER);
 arc(657,466,4,4,0,360);
+
+
+
+
 
 
 }
